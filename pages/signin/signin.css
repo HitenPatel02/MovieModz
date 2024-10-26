@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(26 4 47);
+    color: beige;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../../img/signinbg3.jfif);
+    position: relative;
+    height: 100vh;
+}
+
+.header-img{
+    padding: 15px 25px;
+}
+
+/* ---------------------------------box------------------------------ */
+
+.container-box{
+    width: 45%;
+    height: 500px;
+    border: 1px solid white;
+    margin-left: 27.5%;
+    background: rgb(8, 8, 8);
+}
+
+.container1{
+    padding-top: 100px;
+    padding-left: 130px;
+}
+.start-text{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+.start-text1{
+    display: flex;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 32px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.dot{
+    color: orangered;
+}
+
+.mobile-text{
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+.container1 input{
+
+}
+.flag{
+    height: 20px;
+    width: 40px;
+    padding-left: 12px;
+}
+.mobile-number-field{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: flex-start; */
+    line-height: 40px;
+    width: 350px;
+    border-radius: 8px;
+    background: linear-gradient(139.8deg, hsla(0, 0%, 100%, .2) 10.38%, hsla(0, 0%, 100%, 0) 137.67%);
+}
+.mobile-field-text-91{
+    padding-left: 12px;
+    font-weight: 800;
+    font-size: 14px;
+}
+.mobile-field-text-slash{
+    padding-left: 12px;
+    line-height: 30px;
+    font-size: 30px;
+    color: #7b7676;
+}
+.mobile-field-text-input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    margin-left: 14px;
+    cursor: pointer;
+}
+
+.proceed{
+    width: 350px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    background: orangered;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.form-user{
+    display: flex;
+}
+.signup-user{
+    width: 100px;
+    font-size: 15px;
+    height: 20px;
+    color: white;
+
+    background-color: orangered;
+}
+.proceed:hover{
+    border: 1px solid white;
+}
+
+.following-options-text{
+    font-size: 12px;
+    font-weight: 800;
+    padding-top: 20px;
+    color: aliceblue;
+}
+
+.share-icons{
+    display: flex;
+    margin-top: 13px;
+}
+.gmail-icon{
+    display: flex;
+    font-size: 12px;
+    padding: 10px;
+    border: 1px solid white;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    background: rgb(70, 68, 68);
+    cursor: pointer;
+}
+.gmail-icon:hover{
+    background: rgb(37, 37, 37);
+    border: 1px dotted rgb(70, 68, 68);
+    font-size: 13px;
+    font-weight: 600;
+}
+.facebook-icon{
+    display: flex;
+    font-size: 12px;
+    padding: 10px;
+    border: 1px solid white;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    background: rgb(70, 68, 68);
+    cursor: pointer;
+}
+.facebook-icon:hover{
+    background: rgb(37, 37, 37);
+    border: 1px dotted rgb(70, 68, 68);
+    font-size: 13px;
+    font-weight: 600;
+}
+.google-icon{
+    display: flex;
+    font-size: 12px;
+    padding: 10px;
+    border: 1px solid white;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    background: rgb(70, 68, 68);
+    cursor: pointer;
+}
+.google-icon:hover{
+    background: rgb(37, 37, 37);
+    border: 1px dotted rgb(70, 68, 68);
+    font-size: 13px;
+    font-weight: 600;
+}

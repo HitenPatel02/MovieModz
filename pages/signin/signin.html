@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+
+<body>
+    <!-- -------------------------------header----------------------- -->
+    <div class="header">
+        <a href="../../index.php"><img src="../../img/logo.png" alt class="header-img"></a>
+    </div>
+
+    <!-- --------------------------------box------------------------------- -->
+
+    <div class="container-box">
+        <div class="container1">
+            <div class="start-text">LET'S GET</div>
+            <div class="start-text1">STARTED <p class="dot">.</p>
+            </div>
+            <!-- <div class="mobile-text">Mobile Number</div> -->
+            <div class="form-user"><form action="user_login_b_2.php" method="post" class="mobile-number-field">
+                <!-- <img src="../../img/flag.webp" class="flag"> -->
+                <!-- <p class="mobile-field-text-91">use</p>
+                        <p class="mobile-field-text-slash">|</p>  -->
+                <input type="text" class="mobile-field-text-input" name="uname" placeholder="user name"></br>
+                <input type="password" class="mobile-field-text-input" name="upass" placeholder="password"></br>
+                <!-- <input type="submit" value="submit"> -->
+                <button class="proceed" formaction="user_login_b_2.php">Proceed</button>
+            </form></div>
+
+            <div class="following-options-text">Or, Use one of the following options</div>
+            <div class="share-icons">
+                <div class="gmail-icon">Email</div>
+                    <div class="facebook-icon">Facebook</div>
+                    <div class="google-icon">Google</div></br> 
+                <button class="signup-user"> <p><a href="..\singup\user_reg.php"> Create a new account </a></p></button>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
