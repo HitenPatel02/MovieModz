@@ -1,6 +1,6 @@
 # MovieModz
 Online OTT platform 
-//////////////////////////
-admin dashboard login
+
+# admin dashboard login
 user name :admin   
 password :123
